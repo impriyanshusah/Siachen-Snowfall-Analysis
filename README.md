@@ -24,23 +24,6 @@ Long-term snowfall trend analysis over the Siachen Glacier region using ERA5 rea
 
 Using a bounding box instead of a single point gives a more representative glacier-scale average and reduces sampling bias.
 
-## 🗂 Project Structure
-Siachen-snowfall-analysis/
-├── notebooks/
-│   └── siachen_snowfall_analysis.ipynb        ← main analysis notebook
-├── data/
-│   ├── raw/
-│   │   └── siachen_snowfall_daily_raw.json      
-│   ├── processed/
-│   │   ├── combined_all_spatial_data.csv
-│   │   └── siachen_daily_spatial_mean_snowfall.csv
-│   └── result/
-│       └── siachen_annual_snowfall.csv
-├── img/
-├── .gitignore
-├── pyproject.toml
-├── uv.lock
-└── README.md
 
 
 ## 🧰 Data Source
@@ -58,8 +41,8 @@ Siachen-snowfall-analysis/
 ## ⚙️ Methodology Summary
 
 1. **Data Acquisition**  
-   Multiple grid cells requested via bounding box parameters  
-   Daily `snowfall_sum` retrieved
+   - Multiple grid cells requested via bounding box parameters  
+   - Daily `snowfall_sum` retrieved
 
 2. **Processing**  
    - Parse JSON responses  
@@ -87,7 +70,7 @@ Siachen-snowfall-analysis/
 | **Percentage change**       | **−10.5%**     |                                    |
 | Linear trend                | **−1.11 cm/yr**| Statistically significant decline  |
 
-
+***
 <p align="center">
   <img src="img/annual snowfall with rolling mean.png" width="60%" alt="Annual Snowfall with rolling mean">
   <br><em>Annual Snowfall with rolling mean (1976-2025)</em>
@@ -96,6 +79,7 @@ Siachen-snowfall-analysis/
 **Interpretation**
 The annual snowfall time series shows substantial interannual variability; however, the 5-year rolling mean reveals a clear declining trend over the years.
 
+***
 <p align="center">
   <img src="img/early vs recent comparison.png" width="60%" alt="Early vs recent period comparison">
   <br><em>Mean annual snowfall: 1976–2000 vs 2001–2025</em>
@@ -104,6 +88,7 @@ The annual snowfall time series shows substantial interannual variability; howev
 **Interpretation**  
 The results show a consistent long-term **decline in snowfall accumulation** over the Siachen region — approximately **10–11%** less snow per year in the most recent 25 years compared to the previous 25-year period.
 
+***
 <p align="center">
   <img src="img/linear trend in annual snowfall.png" width="75%" alt="Annual snowfall time series 1976–2025">
   <br><em>Annual snowfall totals with linear trend (1976–2025)</em>
@@ -123,7 +108,7 @@ A linear regression fitted to the annual snowfall data from 1976 to 2025 indicat
 
 ```bash
 # 1. Clone
-git clone https://github.com/impriyanshusah/Siachen-snowfall-analysis.git
+git clone https://github.com/impriyanshusah/Siachen-Snowfall-Analysis.git
 cd Siachen-snowfall-analysis
 
 # 2. Install dependencies & create virtual environment
