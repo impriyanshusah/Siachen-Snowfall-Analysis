@@ -64,19 +64,19 @@ Using a bounding box instead of a single point gives a more representative glaci
 | Metric                      | Value          | Notes                              |
 |-----------------------------|----------------|------------------------------------|
 | Period                      | 1976–2025      | 50 full years                      |
-| Mean annual snowfall (early) | ~389 cm       | 1976–2000                          |
-| Mean annual snowfall (recent)| ~348 cm       | 2001–2025                          |
-| **Absolute change**         | **−40.8 cm**   |                                    |
-| **Percentage change**       | **−10.5%**     |                                    |
-| Linear trend                | **−1.11 cm/yr**| Statistically significant decline  |
+| Mean annual snowfall (early) | **~389 cm**       | 1976–2000                          |
+| Mean annual snowfall (recent)| **~348 cm**       | 2001–2025                          |
+| **Absolute change**         | **-40.8 cm**   |                                    |
+| **Percentage change**       | **-10.5%**     |                                    |
+| Linear trend                | **-1.11 cm/yr**| Statistically significant decline  |
 
 ***
 <p align="center">
-  <img src="img/annual snowfall with rolling mean.png" width="60%" alt="Annual Snowfall with rolling mean">
+  <img src="img/annual snowfall with rolling mean.png" width="75%" alt="Annual Snowfall with rolling mean">
   <br><em>Annual Snowfall with rolling mean (1976-2025)</em>
 </p>
 
-**Interpretation**
+**Interpretation**   
 The annual snowfall time series shows substantial interannual variability; however, the 5-year rolling mean reveals a clear declining trend over the years.
 
 ***
@@ -151,12 +151,3 @@ All contributions are welcome — this project is intentionally kept simple and 
 
 Happy exploring! ❄️🏔️
 
-
-
-
-
-## 📜 License
-
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
-
-You are free to use, modify, and share this work (even commercially), as long as you include the original copyright notice.
